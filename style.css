@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+:root[data-theme="color-a"] {
+    --color-main: orange;
+    --color-sub: khaki;
+    --color-text: #000;
+}
+
+:root[data-theme="color-b"] {
+    --color-main:  darkgreen;
+    --color-sub: seagreen;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-c"] {
+    --color-main: turquoise;
+    --color-sub: paleturquoise;
+    --color-text: #000;
+}
+
+:root[data-theme="color-d"] {
+    --color-main: tomato;
+    --color-sub: lightsalmon;
+    --color-text: #000;
+}
+
+:root[data-theme="color-e"] {
+    --color-main: indigo;
+    --color-sub: darkviolet;
+    --color-text: #fff;
+}
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-text);
+}
+
+p {
+    background-color: var(--color-sub);
+}
+
+/*ボタンの装飾*/
+button {
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #ffffffb9;
+}
+
+#btn-a {
+    background-color: orange;
+    color: #000;
+}
+
+#btn-b {
+    background-color: darkgreen;
+    color: #fff;
+}
+
+#btn-c {
+    background-color: turquoise;
+    color: #000;
+}
+
+#btn-d {
+    background-color: tomato;
+    color: #000;
+}
+
+#btn-e {
+    background-color: indigo;
+    color: #fff;
+}
